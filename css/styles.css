@@ -1,3 +1,58 @@
+
+.cont {
+  max-width: 100%;
+  min-width: 100px;
+}
+
+#head {
+  color: #3c7dc2;
+  font-size: 20pt;
+  font-weight: 500;
+  text-shadow: 5px 3px 5px #474747;
+  text-align: center;
+  max-width: 80%;
+}
+
+li {
+  position: relative;
+  line-height: 20px;
+  color: #f5bb33;
+  font-weight: 400;
+  margin-right: 1em;
+}
+
+#display {
+  background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(0%, rgba(71,71,71,1)), color-stop(1%, rgba(71,71,71,0.6)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
+background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#474747', GradientType=1 );
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #474747;
+    margin-top: 40px;
+    -webkit-columns: 100px; /* Chrome, Safari, Opera */
+    -moz-columns: 100px; /* Firefox */
+    columns: 100px;
+    top:30%;
+    display:none;
+
+
+}
+#span{
+  width:100%;
+}
+
+#form {
+  width: 100%;
+  z-index: 10;
+  margin-left: 4em;
+  position: relative;
+  top: 1em;
+}
 .image {
   background-image: background: rgba(106,128,150,1), url('../img/pingpong.jpg') no-repeat;
 background: -moz-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg') no-repeat;
@@ -10,43 +65,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a8096', end
   z-index: -10;
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
+  max-width: 100%;
   min-width: 1400px;
-  min-height: 800px;
+  min-height: 100%;
   position: absolute;
-}
-
-.container {
-  position: absolute;
-  max-width: 80%;
-  min-width: 100px;
-
-
-}
-
-h1 {
-  position: absolute;
-  color: #3c7dc2;
-  font-size: 20pt;
-  font-weight: 500;
-  text-shadow: 5px 3px 5px #474747;
-  text-align: left;
-  max-width: 80%;
-  margin-bottom: 30px;
-}
-
-li {
-  position: absolute;
-  color: #f5bb33;
-  font-weight: 400;
-  top: 8em;
-}
-
-
-
-#form {
-  position: absolute;
-  top: 8em;
+  top: 0;
+  background-repeat: repeat-y;
 }
 
 /*orange == f5bb33*/
