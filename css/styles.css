@@ -8,19 +8,39 @@
   background-color: #f5bb33;
   border-color: #f9dd55;
   width: 80px;
+  font-family: 'Oswald', sans-serif;
+  margin-right: 2em;
 }
 
 #head {
   color: #3c7dc2;
   font-size: 20pt;
   font-weight: 500;
-  text-shadow: 5px 3px 5px #474747;
+
   text-align: center;
   max-width: 100%;
+  /* WebKit (Safari/Chrome) Only */
+  -webkit-text-stroke: 1px black;
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+text-shadow: 3px 2px 2px #474747;
+margin-bottom: 20px;
 }
 h4 {
-  font-weight: 200;
-  color: #131313;
+  margin-top: 10px;
+  font-size: 18pt;
+  font-weight: 400;
+  color: #3c7dc2;
+  font-family: 'Oswald', sans-serif;
+}
+label {
+  position: relative;
+  line-height: 20px;
+  color: #101010;
+  font-weight: 400;
+  margin-right: 15px;
+  font-family: 'Oswald', sans-serif;
 }
 
 li {
@@ -29,21 +49,23 @@ li {
   color: #f5bb33;
   font-weight: 400;
   margin-right: 1em;
+  font-family: 'Oswald', sans-serif;
 }
 
 #display {
-  background: rgba(73,155,234,1);
-background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(0%, rgba(71,71,71,1)), color-stop(1%, rgba(71,71,71,0.6)));
-background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
-background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
-background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
-background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(71,71,71,1) 0%, rgba(71,71,71,0.6) 1%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#474747', GradientType=1 );
+  background: rgba(26,26,26,0.99);
+background: -moz-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(26,26,26,0.99)), color-stop(24%, rgba(28,28,28,0.99)), color-stop(62%, rgba(32,32,32,0.7)), color-stop(100%, rgba(36,36,36,0.7)));
+background: -webkit-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: -o-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: -ms-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: linear-gradient(to right, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#242424', GradientType=1 );
     border-radius: 1px;
     border-style: solid;
-    border-color: #474747;
+    border-color: #151515;
     margin-top: 40px;
+    margin-left: 15px;
     -webkit-columns: 100px; /* Chrome, Safari, Opera */
     -moz-columns: 100px; /* Firefox */
     columns: 100px;
@@ -52,33 +74,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     padding-top: 30px;
     padding-bottom: 30px;
     display:none;
-
-
 }
 #span{
   width:100%;
 }
-
 #form {
   width: 100%;
   z-index: 10;
   margin-left: 4em;
   position: relative;
   top: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+#input {
+  background: rgba(26,26,26,0.99);
+background: -moz-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(26,26,26,0.99)), color-stop(24%, rgba(28,28,28,0.99)), color-stop(62%, rgba(32,32,32,0.7)), color-stop(100%, rgba(36,36,36,0.7)));
+background: -webkit-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: -o-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: -ms-linear-gradient(left, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+background: linear-gradient(to right, rgba(26,26,26,0.99) 0%, rgba(28,28,28,0.99) 24%, rgba(32,32,32,0.7) 62%, rgba(36,36,36,0.7) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#242424', GradientType=1 );
+border-color: #151515;
+color: #f5bb33;
+font-family: 'Oswald', sans-serif;
 }
 .image {
-  background-image: background: rgba(106,128,150,1), url('../img/pingpong.jpg') no-repeat;
-background: -moz-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg') no-repeat;
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(106,128,150,1)), color-stop(52%, rgba(106,128,150,0.37)), color-stop(69%, rgba(43,47,51,0.17)), color-stop(79%, rgba(43,47,51,0.05))) url('../img/pingpong.jpg')no-repeat;
-background: -webkit-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
-background: -o-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
-background: -ms-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
-background: linear-gradient(to right, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a8096', endColorstr='#2b2f33', GradientType=1 ), url('../img/pingpong.jpg')no-repeat;
+  background-image: url('../img/pingpong.jpg');
   z-index: -10;
   background-position: top;
   background-size: cover;
-  max-width: 100%;
+  max-width: 90%;
   min-width: 100%;
   min-height: 100%;
   position: fixed;

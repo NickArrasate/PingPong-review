@@ -11,11 +11,11 @@ function pingPong(userNumber){
 // Checks each part of numberArray for 3, 5 or 15 divisibility and splices pingpong in
   for (var ii = 0; ii < numberArray.length; ii++){
     if (numberArray[ii] % 15 == 0){
-      numberArray.splice(ii, 1,"pingpong")
+      numberArray.splice(ii, 1,"Pingpong")
     }else if (numberArray[ii] % 5 == 0){
-      numberArray.splice(ii, 1,"pong")
+      numberArray.splice(ii, 1,"Pong")
     }else if (numberArray[ii] % 3 ==0){
-      numberArray.splice(ii, 1,"ping")
+      numberArray.splice(ii, 1,"Ping")
     }
   }
   return numberArray;
