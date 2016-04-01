@@ -1,0 +1,53 @@
+.image {
+  background-image: background: rgba(106,128,150,1), url('../img/pingpong.jpg') no-repeat;
+background: -moz-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg') no-repeat;
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(106,128,150,1)), color-stop(52%, rgba(106,128,150,0.37)), color-stop(69%, rgba(43,47,51,0.17)), color-stop(79%, rgba(43,47,51,0.05))) url('../img/pingpong.jpg')no-repeat;
+background: -webkit-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
+background: -o-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
+background: -ms-linear-gradient(left, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
+background: linear-gradient(to right, rgba(106,128,150,1) 0%, rgba(106,128,150,0.37) 52%, rgba(43,47,51,0.17) 69%, rgba(43,47,51,0.05) 79%), url('../img/pingpong.jpg')no-repeat;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a8096', endColorstr='#2b2f33', GradientType=1 ), url('../img/pingpong.jpg')no-repeat;
+  z-index: -10;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 1400px;
+  min-height: 800px;
+  position: absolute;
+}
+
+.container {
+  position: absolute;
+  max-width: 80%;
+  min-width: 100px;
+
+
+}
+
+h1 {
+  position: absolute;
+  color: #3c7dc2;
+  font-size: 20pt;
+  font-weight: 500;
+  text-shadow: 5px 3px 5px #474747;
+  text-align: left;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+
+li {
+  position: absolute;
+  color: #f5bb33;
+  font-weight: 400;
+  top: 8em;
+}
+
+
+
+#form {
+  position: absolute;
+  top: 8em;
+}
+
+/*orange == f5bb33*/
+/*blue == 3c7dc2*/
