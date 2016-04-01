@@ -1,7 +1,13 @@
 
 .cont {
-  max-width: 100%;
+  width: 100%;
   min-width: 100px;
+}
+#but {
+  color: #131313;
+  background-color: #f5bb33;
+  border-color: #f9dd55;
+  width: 80px;
 }
 
 #head {
@@ -10,7 +16,11 @@
   font-weight: 500;
   text-shadow: 5px 3px 5px #474747;
   text-align: center;
-  max-width: 80%;
+  max-width: 100%;
+}
+h4 {
+  font-weight: 200;
+  color: #131313;
 }
 
 li {
@@ -38,6 +48,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
     -moz-columns: 100px; /* Firefox */
     columns: 100px;
     top:30%;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display:none;
 
 
@@ -66,11 +79,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a8096', end
   background-position: top;
   background-size: cover;
   max-width: 100%;
-  min-width: 1400px;
+  min-width: 100%;
   min-height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 /*orange == f5bb33*/
